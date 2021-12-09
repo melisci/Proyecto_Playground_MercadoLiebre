@@ -11,42 +11,33 @@
     <title>Mercado Liebre</title>
 </head>
 <body>
-    <header class="main-header">
-        <div class="main-header-top-bar">
-            <div class="logoBusqueda">
-                <picture>
-                <img src= "/images/logo-mercado-liebre.svg" class="logo">
-                </picture>
-                    <div class="contenedor-buscador">
-                        <div class="box"> <form action= "/action-page.php"> 
-                            <input type="text" placeholder="Buscar productos, marcas..." name="search"> </div>
-                            <button class="search" type= "submit"> <i class="fas fa-search"></i></button>
-                        </form>
-                    </div>
-            </div>
-            <div class="copy-header">        
-                <i class="fas fa-hand-holding-usd"></i>
-                <h2>Comprá en cuotas y sin tarjeta de crédito</h2>
-            </div>
-        </div>
-        <div class="burger-menu">
-            <i class="fas fa-bars"></i>
-        </div>
-        <div class="main-header-bottom-bar">
-        <nav class="left-navbar">
-            <a href= "/ofertas/">Ofertas</a>
-            <a href= "/tiendasOficiales/">Tiendas Oficiales</a> 
-            <a href= "/vender/">Vender</a>
-            <a href= "/ayuda/">Ayuda</a>
-        </nav>
-        <nav class="right-navbar">
-            <a href= "/register/"> Creá tu cuenta <i class="far fa-address-card"></i></a>
-            <a href= "/login/">Ingresá <i class="fas fa-sign-in-alt"></i></a>
-            <a href= "/misCompras/">Mis Compras<i class="fas fa-shopping-basket"></i></a>
-           
-        </nav>
-        </div>
-    </header>
+    <header> 
+     <section class="headerTopBar">
+         <img src="/images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre" class="logo">
+         <nav class="searchBar">
+             <input type="text" class="bar" placeholder="Buscar productos, marcas y más">
+             <button type="button" class="searchButton"> <i class="fas fa-search"></i></button>
+         </nav>
+         <h2 class="copyHeader"> <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</h2>
+     </section>
+         <div class="burger-menu">
+             <i class="fas fa-bars"></i>
+         </div>
+         <div class="main-header-bottom-bar">
+         <nav class="left-navbar">
+             <a href= "/ofertas/">Ofertas</a>
+             <a href= "/tiendasOficiales/">Tiendas Oficiales</a> 
+             <a href= "/vender/">Vender</a>
+             <a href= "/ayuda/">Ayuda</a>
+         </nav>
+         <nav class="right-navbar">
+             <a href= "/register/"> Creá tu cuenta <i class="far fa-address-card"></i></a>
+             <a href= "/login/">Ingresá <i class="fas fa-sign-in-alt"></i></a>
+             <a href= "/misCompras/">Mis Compras<i class="fas fa-shopping-basket"></i></a>
+            
+         </nav>
+         </div>
+     </header>
     <main>
         <h2 class="tituloLogin">Inicio de Sesión</h2>
         <section class="formularioInicio">
